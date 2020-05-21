@@ -1,0 +1,291 @@
+body {
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+header {
+    margin: 15px;
+}
+
+/* common styles for h1, h2, h3 and p tags */
+
+h1 {
+    color: #0033CC;
+    font-family: 'Solway', serif;
+    font-weight: 500;
+    font-size: 76px;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.p_small {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.p_big {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.p_smallest {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* header */
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-bottom: 4em;
+}
+
+.menu_item {
+    margin-left: 17px;
+    padding-top: 17px;
+    letter-spacing: 0.3px;
+    color: #000;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.login_button {
+    color: #FF4141;
+    padding: 8px 20px;
+    border: 2px solid #FF4141;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /*margin-right: 100px;*/
+    margin-left: 15px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* main block */
+
+.main_container {
+    display: flex;
+    align-content: center;
+    margin: 15px;
+}
+
+#esl {
+    color: #FF4141;
+}
+
+span.price {
+    font-weight: 600;
+}
+
+.access_button {
+    padding: 10px 52px;
+    margin-top: 30px;
+    background: #FF4141;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+
+/* useful resources block */
+
+.useful_resources {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+.box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(75, 75, 75, 0.75);
+    height: 3em;
+    width: 22em;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid #476CDA;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #ffffff url('img/Dropdown.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%;
+    background-size: .65em auto;
+}
+
+#keyword_search {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(75, 75, 75, 0.75);
+    height: 3em;
+    width: 22em;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid #476CDA;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+button {
+    border: 0;
+}
+
+input.search {
+    border-radius: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 3em;
+    width: 22em;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    background: #476CDA url("img/Vector.png") no-repeat center left;
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+}
+
+
+/*icons container*/
+
+.icons_container {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.icon_box {
+    text-align: center;
+    margin: 3em;
+    line-height: 145%;
+}
+
+
+/* Tips for teachers block */
+
+.tips_container {
+    text-align: center;
+    background-color: #E9F3F4;
+    padding-top: 1em;
+}
+
+.blog_container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.tips_box {
+    margin: 1em;
+}
+
+/* About us block */
+
+.about_container {
+    background: url("img/About us.png") no-repeat center;
+    width: auto;
+    height: 750px;
+    width: auto;
+}
+
+#about_h2 {
+    padding-top: 2em;
+}
+
+.text_wrapper {
+    width: 45%;
+    heigh: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-top: 1em;
+    line-height: 150%;
+}
+
+/* Footer */
+
+.footer_container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    background: #FAFAFA;
+    padding: 2em;
+}
+
+.h3_footer {
+    font-size: 14px;
+}
+
+.page_links {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+
+.contacts {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.phone, .email {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.follow {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.social_icons {
+    display: flex;
+    align-items: center;
+}
+
+.social_icons_box {
+    padding: 0.3em;
+}
